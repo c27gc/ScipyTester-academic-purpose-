@@ -71,7 +71,7 @@ class MainWindow(QtGui.QWidget):
         self.grid.addWidget(self.labelAux3,2,6)
 
         self.labelArriba = QtGui.QLabel("Scipy Tester")
-        self.labelArriba.setStyleSheet("border; 1px solid red; color:#193737;" "background-color:rgba(0, 0, 0, 0);"
+        self.labelArriba.setStyleSheet("color:#193737;" "background-color:rgba(0, 0, 0, 0);"
         "font-size: 95px;" "font-family:'Arial';" "font-variant:small-caps;" "font-weight:bold;")
         self.grid.addWidget(self.labelArriba,1,3)
 
